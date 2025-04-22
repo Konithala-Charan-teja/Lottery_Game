@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    background-color:aliceblue;
+}
+h1{
+    text-align: center;
+    margin-top:60px;
+    font-weight:bolder ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 30px;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+   
+}
+.container button{
+    padding: 10px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: larger;
+    border: 2px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px;
+}
+.container button:hover{
+    background-color: crimson;
+    color:white;
+    box-shadow: 1px 1px 10px black;
+}
+.lottery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+}
+.lottery-container-box{
+    margin: 5px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 180px;
+    height: 40px;
+    border-radius:5px ;
+    box-shadow: 1px 1px 10px 2px;
+}
+.winningBox{
+    background-color: crimson;
+    color:white;
+}
+.highlightedBox{
+    border:4px solid crimson;
+    border-radius:5px ;
+}
+
+#num_res{
+    margin:20px 10px;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 20px;
+}
